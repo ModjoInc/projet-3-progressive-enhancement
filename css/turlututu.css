@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:300,400,700');
+
+* {
+  box-sizing: border-box;
+}
+
+/*Squelette de la page*/
+body {
+  min-width: 640px;
+}
+
+header, footer {
+  background-color: #333333;
+  color: #fff;
+  padding: 15px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  font-size: .9em;
+}
+
+.entete {
+  min-height: 300px;
+  background-color: #1E93CC;
+  color: #fff;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 1.7em;
+  letter-spacing: -.09em;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.text_droite {
+  display: inline-block;
+  margin: 80px 20px 20px 20px;
+  width: 50%;
+}
+
+.titre1 {
+  text-align: center;
+  padding: 30px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.titre2 {
+  clear: both;
+  color: #826F6F;
+  text-align: center;
+  padding: 30px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.contenu {
+  background-color: #1E93CC;
+  color: #fff;
+  font-family: 'Libre Franklin', sans-serif;
+  padding: 20px;
+  height: auto;
+  overflow: hidden;
+}
+
+.contenu h3 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 1.7em;
+  margin: 40px 0;
+}
+
+.contenu_g {
+  display: inline-block;
+  width: 45%;
+  padding: 20px;
+}
+
+.contenu_d {
+  display: inline-block;
+  width: 45%;
+  padding: 20px;
+}
+
+
+.panneau {
+  background-color: #EEEEEE;
+  padding: 50px;
+}
+
+.boutons {
+  text-align: center;
+  margin: 50px 5px 150px 5px;
+}
+
+footer p{
+  text-align: right;
+}
+
+/*Listes*/
+.list_header {
+  width: 75%;
+}
+
+.list_header li{
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.panneau_list {
+  text-align: center;
+}
+
+.panneau_list li{
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.footer_list li{
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.li2, .li3, .li4, .li5 {
+  border-left: 1px dotted #fff;
+}
+
+/*Boutons*/
+.button1 {
+  background-color: #E99002;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px 0px;
+  font-family: 'Libre Franklin', sans-serif;
+  color: #fff;
+  font-size: 1.1em;
+  letter-spacing: -.05em;
+  word-spacing: .05em;
+}
+
+.button2, .button3 {
+  display: inline-block;
+  width: 200px;
+  background-color: #165882;
+  border-radius: 10px;
+  border: none;
+  padding: 20px;
+  margin: 20px 0px;
+  font-family: 'Libre Franklin', sans-serif;
+  color: #fff;
+  font-size: 1.4em;
+  font-weight: 700;
+  letter-spacing: -.05em;
+  word-spacing: .05em;
+}
+
+.button4 {
+  display: inline-block;
+  width: 200px;
+  background-color: #E99002;
+  border-radius: 10px;
+  border: none;
+  padding: 20px;
+  margin: 20px 0px;
+  font-family: 'Libre Franklin', sans-serif;
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+.button2 img, .button3 img, .button4 img {
+  vertical-align: middle;
+}
+
+/*images*/
+.log_in {
+  display: inline-block;
+  position: relative;
+  float: right;
+  bottom: 15px;
+  padding-right: 100px;
+}
+
+.bulle {
+  position: fixed;
+  right: 10px;
+  bottom: 5px;
+}
+
+.log_in img {
+  vertical-align: middle;
+}
+
+.portrait {
+  float: left;
+  position: relative;
+  max-width: 30%;
+  padding: 10px;
+  margin-left: 50px;
+}
