@@ -1,35 +1,83 @@
+/*titres*/
+h1,h2,h3,h4,h5,h6 {
+  padding: 15px 5px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2em;
+  padding: 5px 5px;
+}
+
+h4 {
+font-size: 2em;
+}
+
+.format {
+  font-size: 1.4em;
+  margin: 5px 300px;
+  padding: 20px 2px;
+}
+
+.format2 {
+  font-size: 1.2em;
+  margin: 5px 500px;
+  padding: 20px 2px;
+}
+
 body {
-
+  background-color: #E8ECF2;
 }
 
-section {
-
+.bord:last-child {
+  border: none;
 }
 
-header {
-
+.bord {
+  border: 1px solid #191922;
+  padding: 15px;
 }
 
-nav {
+/*texte particuliers*/
 
+.try p {
+  padding: 10px 50px;
 }
 
-.try {
-
+li {
+  list-style-type: none;
+  padding: 0px;
 }
 
-.cloud {
 
+form {
+  padding: 20px 10px;
+  background-color: #E8ECF2;
+  border-radius: 5px;
+  box-shadow: 0px 5px 1px #a1a1a1;
 }
 
-.who {
-
+nav, footer {
+  background-color: #252741;
+  color: #eeeeee;
 }
 
-.form {
-
+.img1 {
+  text-align: left;
 }
 
-footer {
+.cloud, .started {
+  background-color: #f5f4f4;
+}
 
+.who, .try, .cloud {
+  /*text-align: center;*/
+  padding: 20px;
+}
+
+.cloud1 {
+  border-right: 1px solid #c8c8c8;
 }
