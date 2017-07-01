@@ -30,8 +30,7 @@ font-size: 2em;
 
 body {
   background-color: #E8ECF2;
-  max-width: 90%;
-  margin: auto;s
+  max-width: 1980px;
 }
 
 .bord:last-child {
@@ -68,7 +67,8 @@ nav, footer {
 }
 
 .img1 {
-
+/*max-width: 100%;*/
+margin: 0 auto;
 }
 
 .cloud, .started {
